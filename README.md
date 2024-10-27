@@ -1,4 +1,5 @@
 ## Structure
+```
 eco-taxi-backend-trip-service/
 ├── src/
 │   ├── main/
@@ -32,3 +33,4 @@ eco-taxi-backend-trip-service/
 ├── mvnw
 ├── mvnw.cmd
 └── pom.xml
+```
