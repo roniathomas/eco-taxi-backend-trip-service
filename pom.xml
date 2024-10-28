@@ -42,6 +42,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
@@ -53,40 +54,24 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-    			<groupId>jakarta.persistence</groupId>
-    			<artifactId>jakarta.persistence-api</artifactId>
+    		<groupId>jakarta.persistence</groupId>
+    		<artifactId>jakarta.persistence-api</artifactId>
 		</dependency>
 		<dependency>
-        		<groupId>org.hibernate</groupId>
-        		<artifactId>hibernate-validator</artifactId>
-        		<version>6.2.0.Final</version>
-    		</dependency>
-		<dependency>
-			<groupId>com.google.protobuf</groupId>
-			<artifactId>protobuf-java</artifactId>
-			<version>3.21.7</version>
-		</dependency>
+        	<groupId>org.hibernate</groupId>
+        	<artifactId>hibernate-validator</artifactId>
+        	<version>6.2.0.Final</version>
+    	</dependency>
+
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-           	 		<groupId>org.springframework.boot</groupId>
-            			<artifactId>spring-boot-maven-plugin</artifactId>
-        		</plugin>
-        		<plugin>
-           		 	<groupId>com.google.protobuf</groupId>
-            			<artifactId>protobuf-maven-plugin</artifactId>
-            			<version>0.6.1</version> <!-- Use the latest version -->
-            			<executions>
-                			<execution>
-                   				<goals>
-                        				<goal>compile</goal>
-                        				<goal>test-compile</goal>
-                    				</goals>
-               				 </execution>
-        			</executions>
-        		</plugin>
-    		</plugins>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
 	</build>
+
 </project>
